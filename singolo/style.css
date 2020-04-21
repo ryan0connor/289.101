@@ -12,8 +12,9 @@ outline: 1px dotted lime;
 
 .header {
     background-color: #2D2F3B;
-    color: white;
     height: 90px;
+    color: white;
+    border-bottom: 6px solid #4B4E61;
     }
 
 .nav {
@@ -33,6 +34,7 @@ outline: 1px dotted lime;
     margin-top: 40px;
     font-size: 0.75rem;
     text-align: right;
+    color: #4B4E61;
     }
 
 .links a {
