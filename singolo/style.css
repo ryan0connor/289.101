@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+
 body {
     background-color: #F2F2F2;
     margin: 0;
@@ -46,4 +47,15 @@ outline: 1px dotted lime;
 
 .salmon {
     color: #F16C65;
+    }
+
+.banner {
+    background-color: #F16C65;
+    padding: 20px 0;
+    text-align: center;
+    }
+
+.banner img {
+    max-width: 780px;
+    width: 90%;
     }
