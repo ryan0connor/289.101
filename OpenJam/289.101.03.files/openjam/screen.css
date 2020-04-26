@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
-d* { outline: red 1px solid; } 
+* { outline: red 1px solid;  }
 
+    
 body {
     background-color: #82DDB5;
     background-image: url('img/illustration.gif'), url('img/texture.jpg');
