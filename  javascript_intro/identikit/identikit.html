@@ -71,12 +71,12 @@
     </div>
 
     <script>
-        // coordinate variables
+        
+        // COORDINATE VARIABLES
         var eye_left_x = 100;
         var eye_left_y = 100;
         var eye_right_x = 250;
         var eye_right_y = 100;
-        
         var mouth_x = 100;
         var mouth_y = 250;
         
@@ -158,18 +158,25 @@
         });
         
         // HAPPY MOUTH EVENT LISTENER
-        document.getElementById('mouth_happy').addEventListener('click', function rotate() {
+        document.getElementById('mouth_happy').addEventListener('click', function() {
             document.getElementById('mouth').src='mouth_happy.svg';
             });
         
         
         // SAD MOUTH EVENT LISTENER
-        document.getElementById('mouth_sad').addEventListener('click', function rotate() {
+        document.getElementById('mouth_sad').addEventListener('click', function() {
             document.getElementById('mouth').src='mouth_sad.svg';
             });
         
         // RESET FACE EVENT LISTENER
-       
+        // not sure if this is the correct way for resetting 
+       document.getElementById('reset').addEventListener('click', function() {
+           document.getElementById('eye_left').reset();
+           document.getElementById('eye_right').reset();
+           document.getElementById('mouth').reset();
+           document.getElementById('face').reset();
+        
+        });
         
         
         
