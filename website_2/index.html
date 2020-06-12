@@ -6,112 +6,111 @@
         <title>Los Santos Customs</title>
         <link rel="stylesheet" href="style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
     </head>
 
-<!-- HEADER SECTION -->
-    
+<!-- HEADER SECTION -->    
     <body>   
         <div class="nav">
             <div class="logo">
-                <a href="#home">
-                    <img src="lsc.logo.png" height="90">
+                <a href="index.html">
+                    <img src="img/lsc.logo.png" height="90">
                 </a>
             </div>
             
-<!-- NAV BAR SECTION -->        
-            
+<!-- NAV BAR SECTION -->                   
             <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="#upgrades">Upgrades</a>
                 <a href="#brands">Brands</a>
                 <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-                <a href="#locations">Locations</a>
+                <a href="contact.html">Contact</a>
             </div> 
                 <span style="font-size:40px;cursor:pointer;float:right;color: gray;padding-top:15px;padding-right:10px;" onclick="openNav()">&#9776;</span>
     
-            <script>
-                function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-                }
+                <script>
+                    function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    }
 
-                function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                }
-            </script>
+                    function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+            </div>
+
+<!-- SLIDE SHOW -->      
+        <div class="slideshow-container">
+
+<!-- Full-WIDTH WITH NUMBER AND CAPTIONS -->       
+            <div class="mySlides fade">
+                <img src="img/img1.jpg" style="width:100%">
+                <div class="text">bro 1</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/img2.jpg" style="width:100%">
+                <div class="text">bro 2</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/img3.jpg" style="width:100%">
+                <div class="text">bro 3</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="img/img4.jpg" style="width:100%">
+                <div class="text">bro 4</div>
+            </div>
+
+<!-- NEXT AND PREVIOUS BUTTONS -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+    
+        <!--<br> -->
 
-        <!-- Slideshow container -->
-    <div class="slideshow-container">
-
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <img src="img1.jpg" style="width:100%">
-        <div class="text">bro 1</div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="img2.jpg" style="width:100%">
-        <div class="text">bro 2</div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="img3.jpg" style="width:100%">
-        <div class="text">bro 3</div>
-      </div>
+<!-- DOTS/CIRCLE THINGS -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
         
-    <div class="mySlides fade">
-        <img src="img4.jpg" style="width:100%">
-        <div class="text">bro 4</div>
-      </div>
-
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
-        
-        <!-- including script -->
+<!-- INCLUDING SCRIPT -->
         <script src="script.js"></script>
         
-      
- 
+
+<!-- SECOND LOGO --> 
         <div>
-            <img src="logo2.png" class="logo2">
+            <img src="img/logo2.png" class="logo2">
         </div>
         
-    <div class="about_container">  
-        <div>
-            <h2 id="about">ABOUT</h2>
+<!-- ABOUT CONTAINER -->        
+        <div class="about_container">  
+            <div>
+                <h2 id="about">ABOUT</h2>
             </div>
-                <div class="info">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat enim, commodo vel pulvinar vel, tempor sit amet purus. Etiam nisi lacus, rutrum vel tortor sit amet, facilisis laoreet eros. Vivamus sit amet tincidunt neque. Donec vitae fermentum risus, ut ultrices libero. Quisque congue, elit id suscipit volutpat, tortor sapien elementum massa, blandit posuere dolor sem quis augue. Mauris eleifend sollicitudin odio, sed volutpat neque auctor nec. Proin et nisl mollis, vehicula arcu sit amet, ornare urna. Phasellus vulputate lorem gravida rhoncus auctor. Nulla aliquet ornare sem in scelerisque. In ultrices consectetur nulla, nec lacinia velit sodales id. Nunc nec bibendum purus. Aenean quis massa egestas, facilisis turpis sit amet, dictum risus.
-                        
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat enim, commodo vel pulvinar vel, tempor sit amet purus. Etiam nisi lacus, rutrum vel tortor sit amet, facilisis laoreet eros. Vivamus sit amet tincidunt neque. Donec vitae fermentum risus, ut ultrices libero. Quisque congue, elit id suscipit volutpat, tortor sapien elementum massa, blandit posuere dolor sem quis augue.
-                    </p>
-                </div>
+            
+            <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat enim, commodo vel pulvinar vel, tempor sit amet purus. Etiam nisi lacus, rutrum vel tortor sit amet, facilisis laoreet eros. Vivamus sit amet tincidunt neque. Donec vitae fermentum risus, ut ultrices libero. Quisque congue, elit id suscipit volutpat, tortor sapien elementum massa, blandit posuere dolor sem quis augue. Mauris eleifend sollicitudin odio, sed volutpat neque auctor nec. Proin et nisl mollis, vehicula arcu sit amet, ornare urna. Phasellus vulputate lorem gravida rhoncus auctor. Nulla aliquet ornare sem in scelerisque. In ultrices consectetur nulla, nec lacinia velit sodales id. Nunc nec bibendum purus. Aenean quis massa egestas, facilisis turpis sit amet, dictum risus.
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat enim, commodo vel pulvinar vel, tempor sit amet purus. Etiam nisi lacus, rutrum vel tortor sit amet, facilisis laoreet eros. Vivamus sit amet tincidunt neque. Donec vitae fermentum risus, ut ultrices libero. Quisque congue, elit id suscipit volutpat, tortor sapien elementum massa, blandit posuere dolor sem quis augue.
+                </p>
             </div>
+        </div>
                 
-        
-        
+<!-- FOOTER -->             
         <div class="footer">
             <div>
-                <img src="lsc.logo.png" height="50" class="foot_logo">
-                </div>
-                    <div>
-                        <p>LOS SANTOS CUSTOMS</p>
-                    </div>
+                <img src="img/lsc.logo.png" height="50" class="foot_logo">
             </div>
-        
+            
+            <div>
+                <p>LOS SANTOS CUSTOMS</p>
+            </div>
+        </div>
+
         
           
         

@@ -1,13 +1,13 @@
-/* style starts here */
+/* STYLE STARTS HERE 
+
+THE STYLE IS ALL IN ONE AND SECTIONED WITH STYLING PER PAGE NEEDED AND COMMENTED TO KNOW WHICH IS WHICH
+
+*/
 
 
-* {
-outline: 1px dotted lime;
-}
 
 
 /*PHONE ADJUSTMENTS*/
-
 @media screen and (max-width: 480px) {
 body {
     background-color: green;
@@ -28,11 +28,9 @@ body {
     }
 
 /* MAIN CONTENT */
-
 body {
     background-color: black;
     /* change black*/
-    
 }
 
 .nav {
@@ -53,7 +51,6 @@ body {
     }
 
 /* NAV BAR */
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -94,10 +91,9 @@ body {
     }
 
 /* SLIDE SHOW */
-
 * {box-sizing:border-box}
 
-/* Slideshow container */
+/* SLIDESHOW CONTAINER */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -105,12 +101,12 @@ body {
     padding-top: 100px;
 }
 
-/* Hide the images by default */
+/* HIDE THE IMAGES BY DEFAULT */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
+/* NEXT AND PREVIOUS BUTTONS */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -126,13 +122,13 @@ body {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* BUTTON POSITION */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* ON HOVER CHANGE COLOUR */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -218,8 +214,21 @@ p {
     background-color: #232322;
 }
 .foot_logo {
-    padding-top: 10px;
+    padding-top: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*
+
+CONTACT / LOCATION PAGE
+
+*/
+.location_container {
+    grid-column: 1fr 1fr 1fr 1fr;
+}
+.places {
+    
+    
 }
