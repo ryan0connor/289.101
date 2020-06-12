@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Los Santos Customs</title>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+<!-- HEADER SECTION -->    
+    <body>   
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/lsc.logo.png" height="90">
+                </a>
+            </div>
+            
+<!-- NAV BAR SECTION -->                   
+            <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#upgrades">Upgrades</a>
+                <a href="#brands">Brands</a>
+                <a href="#about">About</a>
+                <a href="contact.html">Contact</a>
+            </div> 
+                <span style="font-size:40px;cursor:pointer;float:right;color: gray;padding-top:15px;padding-right:10px;" onclick="openNav()">&#9776;</span>
+    
+                <script>
+                    function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    }
+
+                    function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+            </div>
+
+
+        
+
+<!-- SECOND LOGO --> 
+        <div>
+            <img src="img/logo2.png" class="logo2" style="padding-top: 140px;">
+        </div>
+        
+<!-- LOCATIONS CONTAINER -->        
+        <div class="location_container">  
+            <div>
+                <h2 id="locations">LOCATIONS</h2>
+            </div>
+            
+            <div class="places">
+                <img src="img/lscBurton.png">
+                <img src="img/LscLaMesa.png">
+                <img src="img/lscLSIA.png">
+                <img src="img/LscHarmony.png">
+            </div>
+            
+            
+        </div>
+                
+<!-- FOOTER -->             
+        <div class="footer">
+            <div>
+                <img src="img/lsc.logo.png" height="50" class="foot_logo">
+            </div>
+            
+            <div>
+                <p>LOS SANTOS CUSTOMS</p>
+            </div>
+        </div>
+
+        
+          
+        
+    </body>
+</html>
