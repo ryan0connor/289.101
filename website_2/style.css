@@ -4,28 +4,45 @@ THE STYLE IS ALL IN ONE AND SECTIONED WITH STYLING PER PAGE NEEDED AND COMMENTED
 
 */
 
+/* XS DEVICES */
+body { background-color: red }
 
+/* SM DEVICES */
+@media (min-width: 576px) {
+    body { background-color: orange }
+}
 
+/* MD DEVICES */
+@media (min-width: 768px) {
+    body { background-color: yellow }
 
-/*PHONE ADJUSTMENTS*/
-@media screen and (max-width: 480px) {
-body {
-    background-color: green;
-    }
+    .green {height: 200px;}
+
+    .grey {height: 150px;}
+
+    .maroon {height: 450px;}
+}
+
+/* LG DEVICES */
+@media (min-width: 992px) {
     
-.logo {
-    grid-column: 1/3;
-    margin-top: 20px;
-    text-align: center;
-    }
-    
-.links {
-    grid-column: 1/3;
-    margin-top: 10px;
-    text-align: center;
-    }
-    16 / 17
-    }
+    body { background-color: green }
+
+    .blue {height: 75px;}
+
+    .green {height: 600px;}
+
+    .grey {height: 100px;}
+
+    .maroon {height: 600px;}
+}
+
+/* XL DEVICES */
+@media (min-width: 1200px) {
+    body { background-color: blue }
+}
+
+
 
 /* MAIN CONTENT */
 body {
@@ -232,3 +249,22 @@ CONTACT / LOCATION PAGE
     
     
 }
+
+/*
+
+UPGRADES PAGE
+
+*/
+.rows {
+    
+}
+
+
+
+
+
+
+
+
+
+
